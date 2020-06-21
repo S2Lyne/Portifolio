@@ -10,13 +10,28 @@ nav a{
     border-radius: 2px;
     border: 1px, solid, rgb(14, 13, 13);
     padding: 5px;
-    margin-left: 280px;
-    margin-bottom: 10px;
+    margin-left: 80px;
+    margin-bottom: 20px;
 }
 nav a:hover{
     background-color: rgba(243, 22, 214, 0.753);
     color: black;
 }
+.nav .login button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    margin-left: 280px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+.nav .login button:hover {
+    background: #ccc;
+  }
+  
 h1, h2, h3, h4, a, p, img, table{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
